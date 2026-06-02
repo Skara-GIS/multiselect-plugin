@@ -1040,7 +1040,7 @@ const Multiselect = function Multiselect(options = {}) {
       if (clickSelection || boxSelection || circleSelection || polygonSelection || bufferSelection) {
         multiselectElement = Origo.ui.Element({
           tagName: 'div',
-          cls: 'flex column'
+          cls: 'flex row' // SKA change to row
         });
 
         multiselectButton = Origo.ui.Button({
